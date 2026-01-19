@@ -309,7 +309,7 @@
                         android:id="@+id/txtGithubLink"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="https://github.com/yourusername/ayam-gepuk-finder"
+                        android:text="https://github.com/nrainablqsz/Ayamgepukfinder"
                         android:textColor="#0066CC"
                         android:textSize="14sp"
                         android:layout_marginTop="5dp"
