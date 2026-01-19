@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/review_item_background">
+
+    <TextView
+        android:id="@+id/tvRestaurantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:rating="3.5"
+        android:layout_marginTop="4dp"
+        android:isIndicator="true"/>
+
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="4dp"/>
+
+
+    <TextView
+        android:id="@+id/tvComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment here..."
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#FF000000"/>
+
+    <TextView
+        android:id="@+id/tvHelpfulCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0 people found this helpful"
+        android:textSize="12sp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="4dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvReply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin reply..."
+        android:textSize="12sp"
+        android:textColor="@color/purple_700"
+        android:background="#FFE0B2"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/ivReviewPhoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#FF000000"
+        android:gravity="end"/>
+
+</LinearLayout>

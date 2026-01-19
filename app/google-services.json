@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227935479452",
+    "project_id": "ayamgepukfinder-6708e",
+    "storage_bucket": "ayamgepukfinder-6708e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227935479452:android:81ff27d36ed220fbfeef59",
+        "android_client_info": {
+          "package_name": "com.example.ayamgepukfinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnD2i3bVBshnyfnQBM1E_Z6P-YMvDlKiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

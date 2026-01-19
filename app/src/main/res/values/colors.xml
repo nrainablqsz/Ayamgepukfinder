@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Splash Screen Colors -->
+    <color name="splash_background">#FFFFFFFF</color> <!-- Orange color theme -->
+    <color name="splash_text">#FF6B35</color> <!-- White text -->
+    <color name="splash_text_secondary">#FFE0B2</color> <!-- Light orange text -->
+    <color name="splash_accent">#FF6B35</color> <!-- White accent -->
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimary">#FF6B35</color>
+    <color name="colorPrimaryDark">#D45A2B</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="notification_color">#FF6B35</color>
+</resources>
